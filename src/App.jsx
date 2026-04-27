@@ -8,18 +8,19 @@ import FullBleedSlideshow from "./components/FullBleedSlideshow";
 export default function App() {
 
   const location = useLocation();
+  const base = import.meta.env.BASE_URL;
 
-  const isHome = location.pathname === "/";
+  const isHome = location.pathname === "/" || location.pathname === base;
 
   return (
     <>
       <Navbar />
-
       <Routes>
       <Route
     path="/"
     element={<Navigate to="/gallery/portrait" replace />}
   />
+
         <Route path="/gallery/:galleryId/:imageId?" element={<GalleryPage />} />
       </Routes>
 

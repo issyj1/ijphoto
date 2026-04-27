@@ -1,17 +1,19 @@
+const base = import.meta.env.BASE_URL;
+
 export const collageImages = [
-    "/img/collage/george collage.jpg",
-    "/img/collage/mesepia.jpg",
-    "/img/collage/serenneg.jpg",
-    "/img/collage/v2 digi.jpg",
-    "/img/collage/collagefab.jpg",
+  base + "img/collage/george collage.jpg",
+  base + "img/collage/mesepia.jpg",
+  base + "img/collage/serenneg.jpg",
+  base + "img/collage/v2 digi.jpg",
+  base + "img/collage/collagefab.jpg",
 
-    "/img/collage/flowercollagedigi (1).jpg",
+  base + "img/collage/flowercollagedigi (1).jpg",
 
-    "/img/collage/shoestattoo.jpg",
-    "/img/collage/shoeslargebackground.jpg",
+  base + "img/collage/shoestattoo.jpg",
+  base + "img/collage/shoeslargebackground.jpg",
 
-    "/img/collage/431A6654.jpg",
-    "/img/collage/431A6736.jpg",
+  base + "img/collage/431A6654.jpg",
+  base + "img/collage/431A6736.jpg",
 
-    "/img/fashion/auckeyellow.jpg"
-  ];
+  base + "img/fashion/auckeyellow.jpg"
+];

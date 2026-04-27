@@ -1,14 +1,23 @@
 import { useEffect, useState } from "react";
 
+
+
+const base = import.meta.env.BASE_URL;
+
 const images = [
-  "/img/things/pinkflower.jpg",
- "/img/portrait/cigfab.jpg",
-"/img/collage/shoestattoo.jpg",
-    "/img/things/pinkfloweronblue.jpg",
-    "/img/collage/mesepia.jpg",
+ 
+  base + "img/things/rippleflower.jpg",
 
+  base + "img/things/pinkfloweronblue.jpg",
+  base + "img/portrait/431A6811.jpg",
 
+  base + "img/collage/shoestattoo.jpg",
+  base + "img/portrait/cigfab.jpg",
+  base + "img/portrait/431A2483 -1.jpg",
+
+  base + "img/things/pinkflower.jpg",
 ];
+
 
 export default function FullBleedSlideshow() {
   const [current, setCurrent] = useState(0);

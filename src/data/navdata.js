@@ -7,8 +7,23 @@ export const navTree = [
         { label: "Fashion", to: "/gallery/fashion" },
         { label: "Collage", to: "/gallery/collage" },
         { label: "Things", to: "/gallery/things" },
-        { label: "Places", to: "/gallery/places" },
-
+        { label: "Ambient", to: "/gallery/ambient" },
+        {
+          label: "Children",
+          type: "folder",
+          children: [
+            { label: "More", to: "/gallery/portrait" },
+        
+            {
+              label: "Experimental",
+              type: "folder",
+              children: [
+                { label: "Ambient", to: "/gallery/ambient" },
+                { label: "Collage", to: "/gallery/collage" },
+              ],
+            },
+          ],
+        }
            ]
     },
   

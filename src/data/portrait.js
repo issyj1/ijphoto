@@ -1,22 +1,24 @@
+const base = import.meta.env.BASE_URL;
+
 export const portraitImages = [
-  "/img/portrait/fab portrait.jpg",
-  "/img/portrait/seren dutch.jpg",
-  "/img/portrait/431A6763.jpg",
-  "/img/portrait/431A2483 -1.jpg",
-  "/img/portrait/431A6434-2.jpg",
-  "/img/portrait/auckechin.JPG",
-  "/img/portrait/redbacktattoo.jpg",
-  "/img/portrait/seren dark cap.jpg",
+  base + "img/portrait/fab portrait.jpg",
+  base + "img/portrait/seren dutch.jpg",
+  base + "img/portrait/431A6763.jpg",
+  base + "img/portrait/431A2483 -1.jpg",
+  base + "img/portrait/431A6434-2.jpg",
+  base + "img/portrait/auckechin.JPG",
+  base + "img/portrait/redbacktattoo.jpg",
+  base + "img/portrait/seren dark cap.jpg",
 
-  "/img/portrait/cigfab.jpg",
-  "/img/portrait/431A6811.jpg",
+  base + "img/portrait/cigfab.jpg",
+  base + "img/portrait/431A6811.jpg",
 
-  
-    "/img/portrait/dark seren.jpg",
-    "/img/fashion/georgehair.jpg",
-     "/img/portrait/431A0026.jpg",
+  base + "img/portrait/dark seren.jpg",
+  base + "img/fashion/georgehair.jpg",
+  base + "img/portrait/431A0026.jpg",
 
-     "/img/portrait/431A0457.jpg",
-     "/img/portrait/piano.jpg",
+  base + "img/portrait/431A0457.jpg",
+  base + "img/portrait/Dhanvanti.jpg",
 
-  ];
+  base + "img/portrait/piano.jpg",
+];
